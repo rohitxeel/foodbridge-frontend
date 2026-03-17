@@ -10,7 +10,17 @@ export default function Footer() {
             <span className="font-display font-bold text-lg text-white">Food<span className="text-primary-400">Bridge</span></span>
           </div>
           <p className="text-sm text-center">Bridging the gap between food surplus and food insecurity.</p>
-          <p className="text-xs">© {new Date().getFullYear()} XEEL Technologies. All rights reserved.</p>
+          <p className="text-xs">
+  © {new Date().getFullYear()}{" "}
+  <a 
+    href="https://xeel.in" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="hover:underline"
+  >
+    XEEL Technologies
+  </a>. 
+  All rights reserved.</p>
         </div>
       </div>
     </footer>
