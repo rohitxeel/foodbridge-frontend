@@ -18,7 +18,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto text-center animate-fade-in">
           <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm border border-orange-200 rounded-full px-4 py-1.5 mb-6 shadow-sm">
             <span className="text-lg">🌱</span>
-            <span className="text-sm font-medium text-gray-700">Fighting food waste, one meal at a time</span>
+            <span className="text-sm font-medium text-gray-700">Connecting surplus food to those who need it most</span>
           </div>
           <h1 className="text-5xl md:text-7xl font-display font-black text-gray-900 mb-6 leading-tight">
             Turning Surplus<br /><span className="text-primary-500">Into Purpose</span>
