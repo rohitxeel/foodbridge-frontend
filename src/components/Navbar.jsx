@@ -28,7 +28,12 @@ export default function Navbar() {
                 <button onClick={handleLogout} className="btn-secondary py-2 px-4 text-sm">Logout</button>
               </>
             ) : (
-              <Link to="/" className="text-sm font-medium text-gray-600 hover:text-primary-500 transition-colors">Get Started →</Link>
+              <Link 
+  to="/dashboard" 
+  className="text-sm font-medium text-gray-600 hover:text-primary-500 transition-colors"
+>
+  Get Started →
+</Link>
             )}
           </div>
         </div>
